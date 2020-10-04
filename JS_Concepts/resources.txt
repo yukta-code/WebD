@@ -1,0 +1,28 @@
+
+What a xhrhttp request looks like
+https://www.w3schools.com/xml/xml_http.asp
+
+Fetch documentation
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+Ideas for simple API mini projects
+https://codepen.io/suhanichawla/pen/QWLGWpO
+https://codepen.io/suhanichawla/pen/qBWaLep
+https://codepen.io/suhanichawla/pen/wvwzNXM
+
+Difference between ES5 and ES6
+https://medium.com/@muthuks/difference-between-es-5-and-es-6-e993c7ab0a70
+
+Public APIs
+https://github.com/public-apis/public-apis
+
+Promises
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+Event loop concept
+http://latentflip.com/loupe/?code=Y29uc29sZS5sb2coInN0YXJ0cyBleGVjdXRpb24iKTsKY29uc29sZS5sb2coInN5bmMgbGluZSAxIik7CmZ1bmN0aW9uIG15RnVuKCl7CiAgICBjb25zb2xlLmxvZygiaW5zaWRlIG15IGZ1biB0aGlzIHdpbGwgYmUgY2FsbGVkIG9ubHkgb25jZSIpCiAgICBzZXRJbnRlcnZhbChmdW5jdGlvbigpewogICAgICAgIGNvbnNvbGUubG9nKCJhZnRlciBldmVyeSAxIHNlYyIpCiAgICB9LDEwMDApCiAgICAKfQoKbXlGdW4oKTsKY29uc29sZS5sb2coInN5bmMgbGluZSBhZnRlciBmbiBjYWxsIik7CmNvbnNvbGUubG9nKCJzeW5jIGxpbmUgMyIpOwpjb25zb2xlLmxvZygic3luYyBsaW5lIDQiKTs%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+https://youtu.be/8aGhZQkoFbQ
+
+One of the best JS books, if you want to learn JS as a language
+https://github.com/getify/You-Dont-Know-JS
+This is an amazing book that explains the intricacies of JS as a language
