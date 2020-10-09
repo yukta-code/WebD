@@ -38,7 +38,7 @@ Tools used will be:
 ![Capture2](https://user-images.githubusercontent.com/55687908/95570561-bb381200-0a44-11eb-8f3f-8823674cf091.PNG)
 
 
-# Contributing to OneStopHelp
+# Contributing to OneStopHelp :point_down:
 To contribute to <project_name>, follow these steps:
 
 1. Fork this repository.
@@ -60,7 +60,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 # LICENSE :
 `MIT License`
 
-![](https://camo.githubusercontent.com/87df8c3c71a2e199d14376508b126c1b71e68ef0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f78555047634a4779384939323879496c41512f67697068792e676966 )
+![](https://camo.githubusercontent.com/87df8c3c71a2e199d14376508b126c1b71e68ef0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f78555047634a4779384939323879496c41512f67697068792e676966)
 
 * [LICENSE](https://github.com/dscigdtuw/WebD/blob/master/OneStopHelp/LICENSE)
 * Copyright 2020 
