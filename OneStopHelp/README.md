@@ -1,3 +1,5 @@
+![Capture](https://user-images.githubusercontent.com/55687908/95570511-a65b7e80-0a44-11eb-9e86-76dc4fb058d4.PNG)
+
 # OneStopHelp :handshake:
 
 This Project is a web app that is committed to providing current students with the necessary information and all the resources to succeed in college. 
@@ -33,6 +35,7 @@ Tools used will be:
 .......
 
 # SITE MAP :mag: :
+![Capture2](https://user-images.githubusercontent.com/55687908/95570561-bb381200-0a44-11eb-8f3f-8823674cf091.PNG)
 
 
 # Contributing to OneStopHelp
