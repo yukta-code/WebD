@@ -1,0 +1,40 @@
+body{
+	
+	text-align: center;
+	background: #aa4225;
+}
+section{
+	text-align: center;
+}
+h1{
+	font-size: 200%;
+}
+.Main1{
+	background: #c7e3dc;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 550px;
+}
+h2{
+	padding-top: 1%;
+	font-size: 200%;
+	font-weight: bold;
+	font-style: italic;
+}
+#name{
+	margin-top: 1%;
+}
+.api{
+	margin-top: 4%;
+}
+button{
+	margin-top: 2%;
+	width: 15%;
+	height: 5%;
+	background: #00ff00;
+	font-weight: bold;
+}
+input{
+	width: 20%;
+	height: 20%;
+}
