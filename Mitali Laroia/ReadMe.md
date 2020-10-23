@@ -9,8 +9,8 @@ Done with functions CompleteToDo() and removeToDo() inside app.js
 In order to save the list items in case of power cut and refresh scenerio , every time the list is appended the content is saved through JSON.stringify method and at the beginning of the program check is made at data (localStorage.getItem("TODO")) to load the list if data exist
 
 * Output:
-![1] (C:\Users\br011tx\Pictures\Screenshots\Screenshot (293).png)
-![2] (C:\Users\br011tx\Pictures\Screenshots\Screenshot (294).png)
+![1] (https://drive.google.com/file/d/1Cd0idlr6QxkUqseTPmVL3KxsvOOao2dT/view?usp=sharing)
+![2] (https://drive.google.com/file/d/1I3nkd7IcT5x0-9z1w-aG7XGgD3QoE_HX/view?usp=sharing)
 
 ## Mini Project with API
 ### Pokemon API: Get Random Pokemon
@@ -21,5 +21,5 @@ In order to save the list items in case of power cut and refresh scenerio , ever
 
 
 * Output:
-![1] (C:\Users\br011tx\Pictures\Screenshots\Screenshot (295).png)
-![2] (C:\Users\br011tx\Pictures\Screenshots\Screenshot (296).png)
+![1] (https://drive.google.com/file/d/1I3nkd7IcT5x0-9z1w-aG7XGgD3QoE_HX/view?usp=sharing)
+![2] (https://drive.google.com/file/d/1I3nkd7IcT5x0-9z1w-aG7XGgD3QoE_HX/view?usp=sharing)
