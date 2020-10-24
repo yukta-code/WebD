@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>todo list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='todo.css'/>
+   </head>
+   <body>
+    <div class='header'>
+     <div class='contener-header'>
+      <div class='title'>
+       <h1>Todo-List</h1>
+      </div>
+      <div>
+       <input type='text' class='style1'
+        id='input-todo'><button id='btn-send-todo'
+        class='style1'>Add</button>
+      </div>
+     </div>
+    </div>
+    <div class='list-gen'>
+     <div class='list-contener' id='list'>
+      <div class='list'
+       onclick='this.style.textDecoration = "line-through"'>
+       <button class='cancel'
+        onclick='this.parentElement.style.display = "none";'>×</button>
+       <span class='text'>Study Physics</span>
+      </div>
+     </div>
+    </div>
+    <script >
+        var comment = true;
+function AddList(){
+    var x = document.getElementById('input-todo').value;
+    if(x.length < 3){
+        document.getElementById('input-todo').value = 'Too low !';
+    }else if(x.length > 20){
+        document.getElementById('input-todo').value = 'Too big !';
+    }else{
+        let d = new Date();
+        comment = !comment;
+        document.getElementById('list').innerHTML += (
+            `<div class='${comment ? 'list' : 'list-2'}' onclick='this.style.textDecoration = "line-through"'>
+                <button class='cancel' onclick='this.parentElement.style.display = "none";'>×</button>
+                <span class='text'>${x} at : ${d.getHours()}:${d.getMinutes()}</span>
+            </div>`
+        );
+        document.getElementById('input-todo').value = '';
+    }
+}
+/Onclick add btn/
+document.getElementById('btn-send-todo').onclick = AddList;
+    </script>
+   </body>
+  </html>
