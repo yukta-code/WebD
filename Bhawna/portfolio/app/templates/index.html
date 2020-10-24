@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% block content %} 
+<div class="container">
+<img id="i1 "src="{{ url_for('static', filename='image/girl.png') }}" height ="200 px" width="200 px" Align="right">
+<h3>HELLO_____________</h3>
+<h1>I AM BHAWNA SHARMA</h1>  
+<h3 style="color:#000000">STUDENT &nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp; DEVELOPER</h3>
+</div>
+<br>
+<div class="container2">
+    <img src="{{ url_for('static', filename='image/girl2.png') }}" height ="200 px" width="200 px" Align="left">
+    <h2  style="color:#000000">LET'S INTRODUCE ABOUT MYSELF </h2>
+    <h3>Hello! I am Bhawna Sharma , a MCA student having abilities of analysing problems comprehensively <br> and finding solutions effectively with presentable skills and right attitude.I am always keen to learn new things.</h3>
+</div>
+<br>
+<div class="container3">
+
+    <img src="{{ url_for('static', filename='image/girl3.png') }}" height ="200 px" width="250 px" Align="right">
+
+    <h2 style="color:#000000">PROFILE</h2>
+    <table>
+        <tr>
+        <td>
+            Name : 
+        </td>
+        <td> Bhawna Sharma</td>
+        </tr>
+        <tr>
+            <td>
+                Email Id :
+            </td>
+            <td><a href="mailto:bs152763@gmail.com">bs152763@gmail.com</a></td>
+
+        </tr>
+        <tr>
+            <td>
+                Github Id :
+            </td>
+            <td><a href="https://github.com/bhawna1999"><img src="{{ url_for('static', filename='image/gh.png') }}" height ="30 px" width="35 px">
+            </a></td>
+
+        </tr>
+        <tr>
+            <td>
+                Linkedin Id :
+            </td>
+            <td><a href="http://linkedin.com/in/bhawna-sharma-95813315a"><img src="{{ url_for('static', filename='image/ln.png') }}" height ="20 px" width="20 px">
+            </a></td>
+
+        </tr>
+        <tr>
+        <td>
+            Date of Birth :
+        </td>
+        <td>13 February,1999</td>
+    </tr>
+    <tr>
+        <td>
+            Languagues Known : 
+        </td>
+        <td> English,Hindi ,Punjabi</td>
+    </tr>
+    
+    </table>
+</div>
+{% endblock %}
