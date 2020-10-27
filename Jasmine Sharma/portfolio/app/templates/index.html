@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="intro" id="homeIntro">
+    <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Jasmine Shrama</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">web developer</p>
+    <img class = "intro__img" src="{{url_for('static', filename= 'img/image1.jpg')}}" class="myImage" alt="">
+</section>
+
+<section class="my--services" id= "services">
+    <h2 class="section__title section__title-services">What I do </h2>
+    <div class="service">
+        <div class="services">
+            <h3>
+                Design + Development
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. 
+                
+            </p>
+        </div>
+        <div class="services">
+            <h3>
+                Job Portals
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. 
+                
+            </p>
+        </div>
+        <div class="services">
+            <h3>
+                IT Services
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. 
+               
+            </p>
+        </div>
+    </div>
+    <a href="" class = "btn">My Work</a>
+</section>
+
+
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">
+        About Me
+    </h2>
+    
+    <p class="section__Subtitle section__subtitle--about2 about-me__img"></p>
+    <p class="section__Subtitle section__subtitle--about">Designer & Developer</p>
+    <div class="about-me__body">
+        <p> I enjoy making creative things and enjoy even more
+            with making things better.I have been
+            actively involved in web design community for last 1 year. 
+            I have design some web apps.    
+          </p> <br><p>
+              My speciality is front end web design and Development.
+              With every line of code, I strive to make the Web
+              a beautiful place. 
+       </p>  
+    </div>
+</section>
+
+<footer>
+    <a href="" class="footer-link">jasmine.official@gmail.com</a>
+    <ul class="social-list">
+        <li class = "social-list__item"><i class="fa fa-github"><a href="https://github.com/jaassmine"></a></i></li>
+        <li class = "social-list__item"><i class="fa fa-facebook"><a href="https://www.facebook.com/profile.php?id=100012962671027"></a></i></li>
+        <li class = "social-list__item"><i class="fa fa-instagram"><a href="https://www.instagram.com/jassminesharma/"></a></i></li>
+        <li class = "social-list__item"><i class="fa fa-linkedin"><a href="https://www.linkedin.com/in/jasmine-sharma-6b2632157/"></a></i></li>
+    </ul>
+</footer>
+
+{% endblock %}
+ 
