@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="my-experience" id="experience">
+    <br>
+    <h2 class="section__title-experience">Experience</h2>
+    <p class="section__subtitle-experience"> Growth Experience</p>
+    <div class="portfolio">
+        <a href="" class="portfolio__item">
+            <img src="{{url_for('static', filename= 'img/design.png')}}" alt="" class="portfolio__img">
+        </a>
+        <div class="portfolio__info">
+            <h2> Job Portal for Teachers</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+             </p>
+        </div>
+        <div class="portfolio__info">
+            <h2> Web app for Bakery </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+                
+            </p>
+        </div>
+        <a href="" class="portfolio__item">
+            <img src="{{url_for('static', filename= 'img/Screenshot (658).png')}}" alt=""class="portfolio__img">
+        </a>
+        
+        <a href="" class="portfolio__item">
+            <img src="{{url_for('static', filename= 'img/Screenshot (659).png')}}" alt="" class="portfolio__img">
+        </a>
+        <div class="portfolio__info">
+            <h2>IT Service</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco 
+                
+            </p>
+        </div>
+    </div>
+</section>
+<br>
+
+{% endblock %}
