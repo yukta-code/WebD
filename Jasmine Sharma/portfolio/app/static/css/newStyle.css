@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0 ;
@@ -171,7 +172,7 @@ h3{font-size: var(--fs-h3);}
     padding: 2em;
     margin-top: 1em;
     background-color: var(--clr-dark);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(34, 26, 26, 0.74)),url("backgoundimg1.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(34, 26, 26, 0.74)),url("/static/img/backgroundimg1.jpg");
 	background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -334,7 +335,9 @@ h3{font-size: var(--fs-h3);}
     background-color: #363636;
     text-align: center;
     background-color: var(--clr-dark);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(34, 26, 26, 0.74)),url("{{'img/'+backgoundimg1.jpg}}");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753),
+                                    rgba(34, 26, 26, 0.74)),
+                                    url("/static/img/skillimg1.jpg");
 	background-size: cover;
     color: var(--clr-light);
 }
